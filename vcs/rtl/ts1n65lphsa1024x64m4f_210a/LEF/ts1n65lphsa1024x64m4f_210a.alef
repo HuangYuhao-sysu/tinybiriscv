@@ -1,0 +1,805 @@
+
+#*******************************************************************************
+#*        Software       : TSMC MEMORY COMPILER 2010.02.00.a.210a
+#*        Technology     : 65nm CMOS LOGIC Low Power LowK Cu 1P9M 1.2V
+#*                         Standard-Vt logic, High Density SRAM 6T bit cell
+#*        Memory Type    : TSMC 65nm Low Power SP SRAM Without Redundancy
+#*        Library Name   : ts1n65lphsa1024x64m4f_210a ( user specify: TS1N65LPHSA1024X64M4F)
+#*        Generated Time : 2022/02/24, 21:11:02
+#*******************************************************************************
+
+
+
+#*******************************************************************************
+#*
+#*STATEMENT OF USE
+#*
+#*This information contains confidential and proprietary information of TSMC.
+#*No part of this information may be reproduced, transmitted, transcribed,
+#*stored in a retrieval system, or translated into any human or computer
+#*language, in any form or by any means, electronic, mechanical, magnetic,
+#*optical, chemical, manual, or otherwise, without the prior written permission
+#*of TSMC. This information was prepared for informational purpose and is for
+#*use by TSMC's customers only. TSMC reserves the right to make changes in the
+#*information at any time and without notice.
+#*
+#*******************************************************************************
+
+MACRO TS1N65LPHSA1024X64M4F
+    PIN A[0]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[0]
+    PIN A[1]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[1]
+    PIN A[2]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[2]
+    PIN A[3]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[3]
+    PIN A[4]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[4]
+    PIN A[5]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[5]
+    PIN A[6]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[6]
+    PIN A[7]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[7]
+    PIN A[8]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[8]
+    PIN A[9]
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END A[9]
+    PIN CEB
+        AntennaGateArea 0.060000 ;
+        AntennaDiffArea 0.056 ;
+    END CEB
+    PIN WEB
+        AntennaGateArea 0.054000 ;
+        AntennaDiffArea 0.056 ;
+    END WEB
+    PIN RTSEL[0]
+        AntennaGateArea 0.072000 ;
+        AntennaDiffArea 0.056 ;
+    END RTSEL[0]
+    PIN RTSEL[1]
+        AntennaGateArea 0.072000 ;
+        AntennaDiffArea 0.056 ;
+    END RTSEL[1]
+    PIN WTSEL[0]
+        AntennaGateArea 0.072000 ;
+        AntennaDiffArea 0.056 ;
+    END WTSEL[0]
+    PIN WTSEL[1]
+        AntennaGateArea 0.072000 ;
+        AntennaDiffArea 0.056 ;
+    END WTSEL[1]
+    PIN WTSEL[2]
+        AntennaGateArea 0.072000 ;
+        AntennaDiffArea 0.056 ;
+    END WTSEL[2]
+    PIN CLK
+        AntennaGateArea 11.010000 ;
+        AntennaDiffArea 0.056 ;
+    END CLK
+    PIN BWEB[0]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[0]
+    PIN BWEB[1]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[1]
+    PIN BWEB[2]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[2]
+    PIN BWEB[3]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[3]
+    PIN BWEB[4]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[4]
+    PIN BWEB[5]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[5]
+    PIN BWEB[6]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[6]
+    PIN BWEB[7]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[7]
+    PIN BWEB[8]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[8]
+    PIN BWEB[9]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[9]
+    PIN BWEB[10]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[10]
+    PIN BWEB[11]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[11]
+    PIN BWEB[12]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[12]
+    PIN BWEB[13]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[13]
+    PIN BWEB[14]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[14]
+    PIN BWEB[15]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[15]
+    PIN BWEB[16]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[16]
+    PIN BWEB[17]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[17]
+    PIN BWEB[18]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[18]
+    PIN BWEB[19]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[19]
+    PIN BWEB[20]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[20]
+    PIN BWEB[21]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[21]
+    PIN BWEB[22]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[22]
+    PIN BWEB[23]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[23]
+    PIN BWEB[24]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[24]
+    PIN BWEB[25]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[25]
+    PIN BWEB[26]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[26]
+    PIN BWEB[27]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[27]
+    PIN BWEB[28]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[28]
+    PIN BWEB[29]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[29]
+    PIN BWEB[30]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[30]
+    PIN BWEB[31]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[31]
+    PIN BWEB[32]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[32]
+    PIN BWEB[33]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[33]
+    PIN BWEB[34]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[34]
+    PIN BWEB[35]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[35]
+    PIN BWEB[36]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[36]
+    PIN BWEB[37]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[37]
+    PIN BWEB[38]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[38]
+    PIN BWEB[39]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[39]
+    PIN BWEB[40]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[40]
+    PIN BWEB[41]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[41]
+    PIN BWEB[42]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[42]
+    PIN BWEB[43]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[43]
+    PIN BWEB[44]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[44]
+    PIN BWEB[45]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[45]
+    PIN BWEB[46]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[46]
+    PIN BWEB[47]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[47]
+    PIN BWEB[48]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[48]
+    PIN BWEB[49]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[49]
+    PIN BWEB[50]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[50]
+    PIN BWEB[51]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[51]
+    PIN BWEB[52]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[52]
+    PIN BWEB[53]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[53]
+    PIN BWEB[54]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[54]
+    PIN BWEB[55]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[55]
+    PIN BWEB[56]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[56]
+    PIN BWEB[57]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[57]
+    PIN BWEB[58]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[58]
+    PIN BWEB[59]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[59]
+    PIN BWEB[60]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[60]
+    PIN BWEB[61]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[61]
+    PIN BWEB[62]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[62]
+    PIN BWEB[63]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END BWEB[63]
+    PIN D[0]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[0]
+    PIN D[1]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[1]
+    PIN D[2]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[2]
+    PIN D[3]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[3]
+    PIN D[4]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[4]
+    PIN D[5]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[5]
+    PIN D[6]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[6]
+    PIN D[7]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[7]
+    PIN D[8]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[8]
+    PIN D[9]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[9]
+    PIN D[10]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[10]
+    PIN D[11]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[11]
+    PIN D[12]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[12]
+    PIN D[13]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[13]
+    PIN D[14]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[14]
+    PIN D[15]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[15]
+    PIN D[16]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[16]
+    PIN D[17]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[17]
+    PIN D[18]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[18]
+    PIN D[19]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[19]
+    PIN D[20]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[20]
+    PIN D[21]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[21]
+    PIN D[22]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[22]
+    PIN D[23]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[23]
+    PIN D[24]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[24]
+    PIN D[25]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[25]
+    PIN D[26]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[26]
+    PIN D[27]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[27]
+    PIN D[28]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[28]
+    PIN D[29]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[29]
+    PIN D[30]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[30]
+    PIN D[31]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[31]
+    PIN D[32]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[32]
+    PIN D[33]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[33]
+    PIN D[34]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[34]
+    PIN D[35]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[35]
+    PIN D[36]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[36]
+    PIN D[37]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[37]
+    PIN D[38]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[38]
+    PIN D[39]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[39]
+    PIN D[40]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[40]
+    PIN D[41]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[41]
+    PIN D[42]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[42]
+    PIN D[43]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[43]
+    PIN D[44]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[44]
+    PIN D[45]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[45]
+    PIN D[46]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[46]
+    PIN D[47]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[47]
+    PIN D[48]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[48]
+    PIN D[49]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[49]
+    PIN D[50]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[50]
+    PIN D[51]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[51]
+    PIN D[52]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[52]
+    PIN D[53]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[53]
+    PIN D[54]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[54]
+    PIN D[55]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[55]
+    PIN D[56]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[56]
+    PIN D[57]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[57]
+    PIN D[58]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[58]
+    PIN D[59]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[59]
+    PIN D[60]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[60]
+    PIN D[61]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[61]
+    PIN D[62]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[62]
+    PIN D[63]
+        AntennaGateArea 0.108000 ;
+        AntennaDiffArea 0.056 ;
+    END D[63]
+    PIN Q[0]
+        AntennaDiffArea 0.680000 ;
+    END Q[0]
+    PIN Q[1]
+        AntennaDiffArea 0.680000 ;
+    END Q[1]
+    PIN Q[2]
+        AntennaDiffArea 0.680000 ;
+    END Q[2]
+    PIN Q[3]
+        AntennaDiffArea 0.680000 ;
+    END Q[3]
+    PIN Q[4]
+        AntennaDiffArea 0.680000 ;
+    END Q[4]
+    PIN Q[5]
+        AntennaDiffArea 0.680000 ;
+    END Q[5]
+    PIN Q[6]
+        AntennaDiffArea 0.680000 ;
+    END Q[6]
+    PIN Q[7]
+        AntennaDiffArea 0.680000 ;
+    END Q[7]
+    PIN Q[8]
+        AntennaDiffArea 0.680000 ;
+    END Q[8]
+    PIN Q[9]
+        AntennaDiffArea 0.680000 ;
+    END Q[9]
+    PIN Q[10]
+        AntennaDiffArea 0.680000 ;
+    END Q[10]
+    PIN Q[11]
+        AntennaDiffArea 0.680000 ;
+    END Q[11]
+    PIN Q[12]
+        AntennaDiffArea 0.680000 ;
+    END Q[12]
+    PIN Q[13]
+        AntennaDiffArea 0.680000 ;
+    END Q[13]
+    PIN Q[14]
+        AntennaDiffArea 0.680000 ;
+    END Q[14]
+    PIN Q[15]
+        AntennaDiffArea 0.680000 ;
+    END Q[15]
+    PIN Q[16]
+        AntennaDiffArea 0.680000 ;
+    END Q[16]
+    PIN Q[17]
+        AntennaDiffArea 0.680000 ;
+    END Q[17]
+    PIN Q[18]
+        AntennaDiffArea 0.680000 ;
+    END Q[18]
+    PIN Q[19]
+        AntennaDiffArea 0.680000 ;
+    END Q[19]
+    PIN Q[20]
+        AntennaDiffArea 0.680000 ;
+    END Q[20]
+    PIN Q[21]
+        AntennaDiffArea 0.680000 ;
+    END Q[21]
+    PIN Q[22]
+        AntennaDiffArea 0.680000 ;
+    END Q[22]
+    PIN Q[23]
+        AntennaDiffArea 0.680000 ;
+    END Q[23]
+    PIN Q[24]
+        AntennaDiffArea 0.680000 ;
+    END Q[24]
+    PIN Q[25]
+        AntennaDiffArea 0.680000 ;
+    END Q[25]
+    PIN Q[26]
+        AntennaDiffArea 0.680000 ;
+    END Q[26]
+    PIN Q[27]
+        AntennaDiffArea 0.680000 ;
+    END Q[27]
+    PIN Q[28]
+        AntennaDiffArea 0.680000 ;
+    END Q[28]
+    PIN Q[29]
+        AntennaDiffArea 0.680000 ;
+    END Q[29]
+    PIN Q[30]
+        AntennaDiffArea 0.680000 ;
+    END Q[30]
+    PIN Q[31]
+        AntennaDiffArea 0.680000 ;
+    END Q[31]
+    PIN Q[32]
+        AntennaDiffArea 0.680000 ;
+    END Q[32]
+    PIN Q[33]
+        AntennaDiffArea 0.680000 ;
+    END Q[33]
+    PIN Q[34]
+        AntennaDiffArea 0.680000 ;
+    END Q[34]
+    PIN Q[35]
+        AntennaDiffArea 0.680000 ;
+    END Q[35]
+    PIN Q[36]
+        AntennaDiffArea 0.680000 ;
+    END Q[36]
+    PIN Q[37]
+        AntennaDiffArea 0.680000 ;
+    END Q[37]
+    PIN Q[38]
+        AntennaDiffArea 0.680000 ;
+    END Q[38]
+    PIN Q[39]
+        AntennaDiffArea 0.680000 ;
+    END Q[39]
+    PIN Q[40]
+        AntennaDiffArea 0.680000 ;
+    END Q[40]
+    PIN Q[41]
+        AntennaDiffArea 0.680000 ;
+    END Q[41]
+    PIN Q[42]
+        AntennaDiffArea 0.680000 ;
+    END Q[42]
+    PIN Q[43]
+        AntennaDiffArea 0.680000 ;
+    END Q[43]
+    PIN Q[44]
+        AntennaDiffArea 0.680000 ;
+    END Q[44]
+    PIN Q[45]
+        AntennaDiffArea 0.680000 ;
+    END Q[45]
+    PIN Q[46]
+        AntennaDiffArea 0.680000 ;
+    END Q[46]
+    PIN Q[47]
+        AntennaDiffArea 0.680000 ;
+    END Q[47]
+    PIN Q[48]
+        AntennaDiffArea 0.680000 ;
+    END Q[48]
+    PIN Q[49]
+        AntennaDiffArea 0.680000 ;
+    END Q[49]
+    PIN Q[50]
+        AntennaDiffArea 0.680000 ;
+    END Q[50]
+    PIN Q[51]
+        AntennaDiffArea 0.680000 ;
+    END Q[51]
+    PIN Q[52]
+        AntennaDiffArea 0.680000 ;
+    END Q[52]
+    PIN Q[53]
+        AntennaDiffArea 0.680000 ;
+    END Q[53]
+    PIN Q[54]
+        AntennaDiffArea 0.680000 ;
+    END Q[54]
+    PIN Q[55]
+        AntennaDiffArea 0.680000 ;
+    END Q[55]
+    PIN Q[56]
+        AntennaDiffArea 0.680000 ;
+    END Q[56]
+    PIN Q[57]
+        AntennaDiffArea 0.680000 ;
+    END Q[57]
+    PIN Q[58]
+        AntennaDiffArea 0.680000 ;
+    END Q[58]
+    PIN Q[59]
+        AntennaDiffArea 0.680000 ;
+    END Q[59]
+    PIN Q[60]
+        AntennaDiffArea 0.680000 ;
+    END Q[60]
+    PIN Q[61]
+        AntennaDiffArea 0.680000 ;
+    END Q[61]
+    PIN Q[62]
+        AntennaDiffArea 0.680000 ;
+    END Q[62]
+    PIN Q[63]
+        AntennaDiffArea 0.680000 ;
+    END Q[63]
+END TS1N65LPHSA1024X64M4F

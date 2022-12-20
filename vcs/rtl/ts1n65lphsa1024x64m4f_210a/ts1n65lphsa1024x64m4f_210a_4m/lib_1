@@ -1,0 +1,18 @@
+/*****************************************************************************/
+/* Apollo technology file for TSMC N65 LOGIC SALICIDE (1P9M)                 */
+/*****************************************************************************/
+/* DESIGN RULE DOCUMENT: T-N65-CL-DR-001 V2.0   / T-000-CL-DR-002 V1.4       */
+/* SPICE MODEL DOCUMENT: T-N65-CL-SP-009 V1.2                                */
+/* Resistor & Capacitor are referenced from spice model interconnect table.  */
+/* The index is "width=minWidth", "Space=Pitch".                             */
+/* Note :                                                                    */
+/*       1. Please use ICC2007.12-SP2 to support Technology section parameter*/
+/*          "cornerSpacingMode". Else,                                       */
+/*          For ICC version prior to ICC2007.12-SP2, please set              */
+/*          set_parameter -module droute -name \                             */
+/*                        cornerSpacingMode -value 1                         */
+/*          For Astro, please set                                            */
+/*          (axSetIntParam "droute" "cornerSpacingMode" 1)                   */
+/*       2. Please use ICC2007.12-SP2 to support Technology section parameter*/
+/*          "maxStackLevelMode".                                             */
+/*****************************************************************************/
